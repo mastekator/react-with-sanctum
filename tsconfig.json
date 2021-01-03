@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "build",
     "noEmit": true,
     "target": "es6",
     "module": "esnext",
@@ -7,7 +8,6 @@
     "preserveConstEnums": true,
     "lib": [
       "dom",
-      "es5",
       "es6",
       "es7",
       "es2017"
@@ -16,7 +16,7 @@
     "esModuleInterop": true,
     "jsx": "react",
     "allowJs": true,
-    "declaration": false,
+    "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,

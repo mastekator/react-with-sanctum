@@ -11,7 +11,7 @@ export default [
     // `file` and `format` for each target)
     {
         input: 'src/index.ts',
-        external: ['react', 'axios', 'tiny-invariant'],
+        external: ['react', 'axios'],
         plugins: [json(), typescript()],
         output: [
             {file: pkg.main, format: 'cjs', sourcemap: true},
