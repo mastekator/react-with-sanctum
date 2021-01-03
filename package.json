@@ -1,0 +1,45 @@
+{
+  "name": "react-with-sanctum",
+  "version": "1.0.0",
+  "description": "React package for easy authenticate with Laravel Sanctum",
+  "main": "build/index.cjs.ts",
+  "module": "build/index.esm.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastekator/react-with-sanctum.git"
+  },
+  "keywords": [
+    "react",
+    "auth",
+    "react-components",
+    "laravel-sanctum",
+    "sanctum",
+    "laravel"
+  ],
+  "author": "Maxim Tretiak <mastekator95@gmail.com> (https://github.com/mastekator)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mastekator/react-with-sanctum/issues"
+  },
+  "homepage": "https://github.com/mastekator/react-with-sanctum#readme",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@types/react": "^16.9.53",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "rollup": "^2.32.1",
+    "rollup-plugin-typescript2": "^0.27.3",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "files": [
+    "build"
+  ]
+}
