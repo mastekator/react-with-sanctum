@@ -1,6 +1,6 @@
 {
   "name": "react-with-sanctum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React package for easy authenticate with Laravel Sanctum",
   "main": "build/index.cjs.ts",
   "module": "build/index.esm.js",
