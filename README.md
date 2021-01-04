@@ -52,7 +52,13 @@ const Login: React.FC = (props) => {
 
     const signInHandler = () => {
         signIn({email, password})
-            .then(() => console.log('sign in success'))
+            .then((data) => {
+                if (data) {
+                    console.log('sign in success')
+                } else {
+                    console.error('401 error')
+                }   
+            })
             .catch((error) => console.log('error', error))
     }
 
