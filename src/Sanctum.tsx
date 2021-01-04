@@ -63,7 +63,7 @@ class Sanctum extends React.Component<Props, State> {
             this.setState({user: false, authenticated: false})
             return false
         } else {
-            return error
+            throw error
         }
     }
 
