@@ -1,6 +1,8 @@
 # React-with-sanctum - your React authentication for laravel-sanctum
 
 [![npm version](https://badge.fury.io/js/react-with-sanctum.svg)](https://www.npmjs.com/package/react-with-sanctum)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/mastekator/react-with-sanctum.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mastekator/react-with-sanctum/context:javascript)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/mastekator/react-with-sanctum.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mastekator/react-with-sanctum/alerts/)
 
 React-with-sanctum provides an `Sanctum` component and `SanctumContext` context for Laravel-sanctum. Making it easy to use Laravel-Sanctum authentication in your React application.
 
